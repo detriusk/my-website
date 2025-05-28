@@ -2,11 +2,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background: rgb(214, 149, 93);
 }
 
 header{
-    background-color: #333;
-    color: #ffffff;
+    background-color: rgb(28, 21, 230);
+    background: url(imgs/leagueimage.jpg) top right;
+    color: rgb(236, 228, 228);
     text-align: center;
     padding: 10px 0;
 }
@@ -22,7 +24,7 @@ br{
 
 
 section#list>ul {
-    color: rgb(139, 5, 5);
+    color: #000000;
 }
 
 p {
@@ -35,8 +37,15 @@ footer a:hover {
 }
 
 #move-on {
-    color: rgb(197, 12, 12);
+    color: rgb(26, 18, 18);
     font-size: 200%;
+    background: linear-gradient(180deg, #ffffff 0%, rgb(214, 0149, 93) 100%);
+    /*background-color: #ff0000;*/
+    width: 100%;
+    border: #000000 solid;
+    border-radius: 100px;
+    text-align: center;
+
 }
 
 blockquote {
